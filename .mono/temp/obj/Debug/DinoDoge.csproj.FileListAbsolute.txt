@@ -1,0 +1,9 @@
+C:\Users\PSokol\Documents\godotGames\DinoDoge\.mono\temp\bin\Debug\DinoDoge.dll
+C:\Users\PSokol\Documents\godotGames\DinoDoge\.mono\temp\bin\Debug\DinoDoge.pdb
+C:\Users\PSokol\Documents\godotGames\DinoDoge\.mono\temp\obj\Debug\DinoDoge.csproj.AssemblyReference.cache
+C:\Users\PSokol\Documents\godotGames\DinoDoge\.mono\temp\obj\Debug\DinoDoge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PSokol\Documents\godotGames\DinoDoge\.mono\temp\obj\Debug\DinoDoge.AssemblyInfoInputs.cache
+C:\Users\PSokol\Documents\godotGames\DinoDoge\.mono\temp\obj\Debug\DinoDoge.AssemblyInfo.cs
+C:\Users\PSokol\Documents\godotGames\DinoDoge\.mono\temp\obj\Debug\DinoDoge.csproj.CoreCompileInputs.cache
+C:\Users\PSokol\Documents\godotGames\DinoDoge\.mono\temp\obj\Debug\DinoDoge.dll
+C:\Users\PSokol\Documents\godotGames\DinoDoge\.mono\temp\obj\Debug\DinoDoge.pdb
