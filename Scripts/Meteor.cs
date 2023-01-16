@@ -25,6 +25,7 @@ public class Meteor : KinematicBody2D
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
     public override void _Process(float delta)
     {
-        this.Position += direction*speed;
+        //this.Position += direction*speed*delta;
+        this.MoveAndCollide(direction*speed*delta*100);
     }
 }

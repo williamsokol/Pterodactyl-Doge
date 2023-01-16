@@ -23,7 +23,7 @@ texture = ExtResource( 3 )
 script = ExtResource( 2 )
 open = ExtResource( 1 )
 close = ExtResource( 4 )
-speed = 5.0
+speed = 2.0
 flapDelay = 0.2
 
 [node name="Sprite" type="Sprite" parent="Player"]
