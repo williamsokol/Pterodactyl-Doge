@@ -1,0 +1,42 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scripts/Player.cs" type="Script" id=1]
+[ext_resource path="res://Scenes/Meteor.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Art/Dino/Dinosaur3-c-1.svg" type="Texture" id=3]
+[ext_resource path="res://Art/Jurassic-1.svg" type="Texture" id=4]
+[ext_resource path="res://Art/Dino/Dinosaur3-b-1.svg" type="Texture" id=5]
+[ext_resource path="res://Scripts/MeteorSpawner.cs" type="Script" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 19, 38 )
+
+[node name="Gameplay" type="Node2D"]
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 512.5, 300.5 )
+scale = Vector2( 2.13125, 1.675 )
+texture = ExtResource( 4 )
+
+[node name="Player" type="KinematicBody2D" parent="."]
+script = ExtResource( 1 )
+open = ExtResource( 5 )
+close = ExtResource( 3 )
+speed = 2.0
+flapDelay = 0.2
+
+[node name="Sprite" type="Sprite" parent="Player"]
+texture = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource( 1 )
+
+[node name="Timer" type="Timer" parent="Player"]
+
+[node name="MeteorSpawner" type="Control" parent="."]
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+meteorPrefab = ExtResource( 2 )
+
+[node name="Timer" type="Timer" parent="MeteorSpawner"]

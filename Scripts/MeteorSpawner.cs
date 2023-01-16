@@ -20,9 +20,11 @@ public class MeteorSpawner : Control
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
     public async void SpawnMeteors()
     {
+        Timer timer = GetNode<Timer>("Timer");
         while(GameManager.gameOver == false)
         {
-            await ToSignal(GetTree().CreateTimer(meteorDelay), "timeout");
+            timer.Start(meteorDelay);
+            await ToSignal(timer, "timeout");
             SpawnMeteor();
         }
     }

@@ -39,12 +39,15 @@ public class Player : Godot.KinematicBody2D
  {
     //var messageTimer = GetNode<Timer>("MessageTimer");
     GD.Print("test1");
+    Timer timer = GetNode<Timer>("Timer");
     while(true)
     {
         sprite.Texture = open;
-        await ToSignal(GetTree().CreateTimer(flapDelay), "timeout");
+        timer.Start(flapDelay);
+        await ToSignal(timer, "timeout");
         sprite.Texture = close;
-        await ToSignal(GetTree().CreateTimer(flapDelay), "timeout");
+        timer.Start(flapDelay);
+        await ToSignal(timer, "timeout");
     }
  }
 }

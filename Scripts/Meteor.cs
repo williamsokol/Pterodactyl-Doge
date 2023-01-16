@@ -26,6 +26,13 @@ public class Meteor : KinematicBody2D
     public override void _Process(float delta)
     {
         //this.Position += direction*speed*delta;
-        this.MoveAndCollide(direction*speed*delta*100);
+        KinematicCollision2D collisions = this.MoveAndCollide(direction*speed*delta*100);
+
+        if(collisions != null)
+        {
+            GD.Print("game over");
+            //QueueFree();
+            GameManager.instance.GameOver();
+        }
     }
 }
