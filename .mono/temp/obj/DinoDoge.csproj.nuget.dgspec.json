@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PSokol\\Documents\\godotGames\\DinoDoge\\DinoDoge.csproj": {}
+    "/home/william/Documents/godotGames/Pterodactyl-Doge/DinoDoge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PSokol\\Documents\\godotGames\\DinoDoge\\DinoDoge.csproj": {
+    "/home/william/Documents/godotGames/Pterodactyl-Doge/DinoDoge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PSokol\\Documents\\godotGames\\DinoDoge\\DinoDoge.csproj",
+        "projectUniqueName": "/home/william/Documents/godotGames/Pterodactyl-Doge/DinoDoge.csproj",
         "projectName": "DinoDoge",
-        "projectPath": "C:\\Users\\PSokol\\Documents\\godotGames\\DinoDoge\\DinoDoge.csproj",
-        "packagesPath": "C:\\Users\\PSokol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PSokol\\Documents\\godotGames\\DinoDoge\\.mono\\temp\\obj\\",
+        "projectPath": "/home/william/Documents/godotGames/Pterodactyl-Doge/DinoDoge.csproj",
+        "packagesPath": "/home/william/.nuget/packages/",
+        "outputPath": "/home/william/Documents/godotGames/Pterodactyl-Doge/.mono/temp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PSokol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/william/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +37,7 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
         }
       }
     }
