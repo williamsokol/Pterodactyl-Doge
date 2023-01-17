@@ -8,24 +8,26 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-    "/home/william/.nuget/packages/": {}
+    "C:\\Users\\PSokol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/william/Documents/godotGames/Pterodactyl-Doge/DinoDoge.csproj",
+      "projectUniqueName": "C:\\Users\\PSokol\\Documents\\godotGames\\DinoDoge\\DinoDoge.csproj",
       "projectName": "DinoDoge",
-      "projectPath": "/home/william/Documents/godotGames/Pterodactyl-Doge/DinoDoge.csproj",
-      "packagesPath": "/home/william/.nuget/packages/",
-      "outputPath": "/home/william/Documents/godotGames/Pterodactyl-Doge/.mono/temp/obj/",
+      "projectPath": "C:\\Users\\PSokol\\Documents\\godotGames\\DinoDoge\\DinoDoge.csproj",
+      "packagesPath": "C:\\Users\\PSokol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PSokol\\Documents\\godotGames\\DinoDoge\\.mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/william/.config/NuGet/NuGet.Config"
+        "C:\\Users\\PSokol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net472"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -43,7 +45,7 @@
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "/usr/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }
