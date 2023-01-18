@@ -34,6 +34,7 @@ public class Player : Godot.KinematicBody2D
         flapDelay = .6f;
     }
     this.Position = new Vector2(this.Position.x+(dir*speed*delta*100),this.Position.y);   
+    Position =  new Vector2(Mathf.Clamp(Position.x , 0, GetViewportRect().Size.x), Position.y);
  }
  public async void FlapAnim()
  {
